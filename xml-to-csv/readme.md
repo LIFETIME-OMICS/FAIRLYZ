@@ -14,11 +14,11 @@ git clone https://github.com/LIFETIME-OMICS/FAIRLYZ.git
  ```
 2. Navigate to the project folder.
  ```bash
-  cd FAIRLYZ 
+cd FAIRLYZ 
   ```
 3. Install dependencies by running:
-    ```bash
-      npm install
+ ```bash
+ npm install
    ```
 
 
@@ -26,7 +26,7 @@ git clone https://github.com/LIFETIME-OMICS/FAIRLYZ.git
 
 Run the script using the following command:
  ```bash
-    node index.js -i <input-file> -o <output-file>
+ node index.js -i <input-file> -o <output-file>
      ```
 
 Where:
