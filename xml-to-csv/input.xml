@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./datadict_v2.xsl"?>
+<data_table id="pht012703.v1" study_id="phs003071.v1" participant_set="1"
+    date_created="Wed Oct 19 16:37:17 2022">
+    <description />
+    <variable id="phv00508881.v1">
+        <name>SUBJECT_ID</name>
+        <description>Subject ID</description>
+        <type>string</type>
+    </variable>
+    <variable id="phv00508882.v1">
+        <name>SEX</name>
+        <description>Biological sex</description>
+        <type>encoded value</type>
+        <value code="1">Male</value>
+        <value code="2">Female</value>
+    </variable>
+    <variable id="phv00508883.v1">
+        <name>AGE</name>
+        <description>Age at oral immunotherapy (OIT) enrollment</description>
+        <type>integer</type>
+        <unit>years</unit>
+    </variable>
+    <variable id="phv00508884.v1">
+        <name>ASTHMA</name>
+        <description>Asthma status</description>
+        <type>encoded value</type>
+        <value code="0">No</value>
+        <value code="1">Yes</value>
+    </variable>
+    <variable id="phv00508885.v1">
+        <name>ALLERGIC_RHINITIS</name>
+        <description>Allergic Rhinitis status</description>
+        <type>encoded value</type>
+        <value code="0">No</value>
+        <value code="1">Yes</value>
+    </variable>
+    <variable id="phv00508886.v1">
+        <name>ATOPIC_DERMITITIS</name>
+        <description>Atopic dermititis status</description>
+        <type>encoded value</type>
+        <value code="0">No</value>
+        <value code="1">Yes</value>
+    </variable>
+    <variable id="phv00508887.v1">
+        <name>RACE</name>
+        <description>Ethnicity</description>
+        <type>encoded value</type>
+        <value code="1">Hispanic or Latino</value>
+        <value code="2">Other</value>
+    </variable>
+    <variable id="phv00508888.v1">
+        <name>ARM</name>
+        <description>Peanut treatment group in oral immunotherapy (OIT)</description>
+        <type>encoded value</type>
+        <value code="0">Placebo</value>
+        <value code="1">Peanut-0 (avoided peanut after week-104)</value>
+        <value code="2">Peanut-300 (ingested 300mg peanut after week-104)</value>
+        <value code="UNK">Unknown</value>
+    </variable>
+    <variable id="phv00508889.v1">
+        <name>OUTCOME</name>
+        <description>OIT outcome at week-117</description>
+        <type>encoded value</type>
+        <value code="0">Placebo</value>
+        <value code="1">Failure</value>
+        <value code="2">Pass</value>
+        <value code="UNK">Unknown</value>
+    </variable>
+</data_table>
