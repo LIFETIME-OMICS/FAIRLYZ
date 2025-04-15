@@ -10,7 +10,7 @@ A Node.js tool to automatically generate a data dictionary from a CSV file. It i
 ### 1. Clone or Download This Repo
 
 ```bash
-git clone https://github.com/LIFETIME-OMICS/FAIRLYZ/data-dictionary-generator.git
+git clone https://github.com/LIFETIME-OMICS/FAIRLYZ
 cd data-dictionary-generator
 ```
 
@@ -36,7 +36,7 @@ node generateDict.js -i <input_file> -o <output_file> [-ne <not_encoded_columns>
 |--------|-------------|
 | `-i` or `--input` | Path to your input CSV file |
 | `-o` or `--output` | Path where the generated data dictionary will be saved |
-| `-ne` or `--notEncodedColumns` | (Optional) Comma-separated column names that should **not** be treated as encoded |
+| `-ne` or `--notEncodedColumns` | (Optional) Space-separated column names that should **not** be treated as encoded |
 
 ---
 
